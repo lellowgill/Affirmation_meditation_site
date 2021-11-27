@@ -116,6 +116,15 @@ p{
     color: black;
     text-align: center;
 }
+.footer{
+    
+    font-size:20%;
+    padding-top: 18px;
+}
+
+
+
+
 /*.animate{
     animation-duration: 0.5s;
     animation-name: animate-fade;

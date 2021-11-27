@@ -81,11 +81,12 @@ header {
     /* box-shadow: 0 4px 8px 0 #bbb; */
     transition: 0.3s;
     border-radius: 5px; /* 5px rounded corners; */
-    margin-left: 10%;
+    margin-left: 160px;
     border-radius: 15%;
     text-align: center; 
     justify-content: space-between 0px;
     display: flex;
+    
 }
 p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;

@@ -28,9 +28,10 @@ h2{
     display: flex;
     justify-content: center;
     flex-direction: row;
-    margin-top: 200px;
+    margin-top: 300px;
     color: hsl(0, 100%, 90%);
     font-size: 500%;
+    margin-top: 100px;
 }
 header {
     flex-direction: row;
@@ -55,7 +56,7 @@ header {
     
 }
 .card-one {
-    background-color:paleturquoise;
+    background-color:rgba(245, 245, 245, 0.4);
 	color: white;
     padding: 2em;
     border-radius: 30px;
@@ -63,9 +64,10 @@ header {
     max-width: 420px;
     margin: 3em;
     box-shadow: 0 4px 8px 0 #bbb;
+    margin-top: 200px;
 } 
 .card-two{
-    background-color:paleturquoise;
+    background-color:rgba(245, 245, 245, 0.4);
 	color: white;
     padding: 3em;
     border-radius: 30px;
@@ -73,7 +75,7 @@ header {
     max-width: 420px;
     margin: 3em;
     box-shadow: 0 4px 8px 0 #bbb;
-
+    margin-top: 200px;
 }
 .cards {
     /* box-shadow: 0 4px 8px 0 #bbb; */
@@ -87,7 +89,7 @@ header {
 }
 p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 300%;
+    font-size: 350%;
     font-weight: 300;
     font-variant: small-caps;
     color: black;

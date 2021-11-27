@@ -1,8 +1,17 @@
-body {
-    position: absolute;
-    background-image: url(https://images.unsplash.com/photo-1528715471579-d1bcf0ba5e83?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWVkaXRhdGlvbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60);
-    background-size: 115%;
+
+html {
+    background: url(./zoltan-tasi-vHnVtLK8rCc-unsplash\ \(1\).jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
 }
+/*body {
+    background-image: url(./zoltan-tasi-vHnVtLK8rCc-unsplash\ \(1\).jpg);
+    background-size: cover;
+    
+} */
 .flex-container  {
     display: flex;
     flex-direction: column;
@@ -16,10 +25,12 @@ body {
     color: paleturquoise;  
 }
 h2{
-    padding-left: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
     margin-top: 200px;
     color: hsl(0, 100%, 90%);
-    font-size: 350%;
+    font-size: 500%;
 }
 header {
     flex-direction: row;
@@ -34,97 +45,66 @@ header {
     z-index: 1000;
     background-color: hsla(0, 100%, 90%, 0.3);
 }
-.navbar a {
+.navbar a{
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 150%;
     font-weight: 300;
     font-variant: small-caps;
     color: black;
+    
 }
-/*.card {
-    background:rgb(180, 180, 180);
+.card-one {
+    background-color:paleturquoise;
 	color: white;
     padding: 2em;
-    border-radius: 50px;
+    border-radius: 30px;
     width: 100%;
     max-width: 420px;
     margin: 3em;
-
-} */
-.flip-card {
-    background-color: transparent;
-    width: 300px;
-    height: 200px;
-    border: gray;
-    perspective: 1000px; /* Remove this if you don't want the 3D effect */
-    border-radius: 35px;
-    padding-left: 70%;
-    padding-top: 5%;
-}
-
-  /* This container is needed to position the front and back side */
-.flip-card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-    padding: 5px;
-}
-
-  /* Do an horizontal flip when you move the mouse over the flip box container */
-.flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
-}
-
-  /* Position the front and back side */
-.flip-card-front, .flip-card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden; /* Safari */
-    backface-visibility: hidden;
-    border-radius: 15%;
-}
-  /* Style the front side (fallback if image is missing) */
-.flip-card-front {
-    background-color: paleturquoise;
-    color: black;
-    text-align:center;
-    padding-top: 25%;
-    margin: -50px;
-}
-  /* Style the back side */
-.flip-card-back {
-    background-color: palegoldenrod;
-    color:paleturquoise;
-    transform: rotateY(180deg);
-    text-align: center;
-    padding-top: 25%;
-    margin: -50px;
-}
-.card {
     box-shadow: 0 4px 8px 0 #bbb;
-    transition: 0.3s;
-    border-radius: 5px; /* 5px rounded corners */
-    margin-left: 70%;
-    border-radius: 15%;
-    text-align: center;
-}
-
-/* Add some padding inside the card container */
-.container{
-    padding: 50px;
+} 
+.card-two{
     background-color:paleturquoise;
-    border-radius: 15%;
-    
+	color: white;
+    padding: 3em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    margin: 3em;
+    box-shadow: 0 4px 8px 0 #bbb;
+
 }
-h1{
+.cards {
+    /* box-shadow: 0 4px 8px 0 #bbb; */
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners; */
+    margin-left: 10%;
+    border-radius: 15%;
+    text-align: center; 
+    justify-content: space-between 0px;
+    display: flex;
+}
+p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 200%;
+    font-size: 300%;
     font-weight: 300;
     font-variant: small-caps;
     color: black;
+    text-align: center;
 }
+/*.animate{
+    animation-duration: 0.5s;
+    animation-name: animate-fade;
+    animation-delay: 0.5s;
+    animation-fill-mode: backwards;
+}
+@keyframes animate-fade{
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+} */
+

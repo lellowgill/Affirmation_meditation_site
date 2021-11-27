@@ -44,7 +44,7 @@ header {
     position: fixed;
     top: 0; left: 0; right: 0;
     z-index: 1000;
-    background-color: hsla(0, 100%, 90%, 0.3);
+    background-color: #a988ad96;
 }
 .navbar a{
     text-decoration: none;

@@ -10,8 +10,8 @@
 <html>
     <head>
         <script>
-        let affirmationText = document.getElementById("affirmationText");
-        affirmationText.text("the next word")
+            let affirmationText = document.getElementById("affirmationText");
+            affirmationText.text("the next word")
         </script>
     </head>
 </html>

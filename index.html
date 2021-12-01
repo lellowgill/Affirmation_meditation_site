@@ -6,14 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="affirmations_app.css">
     <title>Affirmation Meditation App</title>
-    <script>
-        function affirmationText() {
-            document.getElementById("affirmationText").innerHTML = "Happy.";
-        }      
-    </script>
+
 </head>
 
 <body>
+
 <!-- Header --> 
     <header>
             <div class="flex-container">
@@ -26,9 +23,9 @@
 <!-- Nav Bar -->
             <div class="navbar">
                 <a class="active"
-            href="#home">Home</a> 
-                    <a href="#about">About</a> 
-                    <a href="#feature">Featured Affs</a></div>
+                    href="index.html">home</a> 
+                    <a href="about.html">about</a> 
+                    <a href="feature.html">featured affs</a></div>
             </div>
     </header>
 </body>
@@ -39,19 +36,28 @@
     <div class="centered">
             <section class="cards">
                 <article class="card-one">
-                    <p>"I AM"</p>
+                    <p class="card_text"> "I AM"</p>
                 </article> 
             <!--<div class="animate"> -->
-            <button class="card-two"> 
-                <article class="card">
-                    <p id="words">HAPPY</p>
-                    <!--<button type="button" onclick="affirmationText()">Happy</button> -->
-            </article> 
+            <button id="affirmationBtn"> 
+                <p class="card_text" id="affirmationText">
+                </p> 
             </button>  
+            </section>  
         </div>
-    </section>
     <!--</div> -->
 <!-- End Cards -->
+
+
+<!--<button id="myButton">Click Me!</button>
+<script>
+    const button = document.querySelector('#myButton')
+
+    button.onclick = function() {
+    alert('clicked')
+}
+</script>-->
+
 
 <!-- Title -->
 <section>
@@ -64,7 +70,7 @@
 <!-- Footer -->
 
     <div class="footer">
-        <p>Copyright © 2021 Stoneccd, LLC. All Rights Reserved</p>
+        <p>Copyright © 2020 Stoneccd, LLC. All Rights Reserved</p>
     </div>
     
 <!-- End Footer -->

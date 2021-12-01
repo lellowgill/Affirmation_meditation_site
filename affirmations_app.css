@@ -118,9 +118,10 @@ header {
     text-align: center;
 }
 .footer{
-    
+    text-align: center;
     font-size:20%;
     padding-top: 18px;
+    color: rgb(104, 99, 99);
 }
 /*.animate{
     animation-duration: 0.5s;

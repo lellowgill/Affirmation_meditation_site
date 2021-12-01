@@ -87,7 +87,7 @@ header {
     box-shadow: 0 4px 8px 0 #bbb;
     margin-top: 200px;
 } 
-.card-two{
+#affirmationBtn{
     background-color:rgba(245, 245, 245, 0.4);
 	color: white;
     padding: 3em;
@@ -98,6 +98,7 @@ header {
     box-shadow: 0 4px 8px 0 #bbb;
     margin-top: 200px;
 }
+
 .cards {
     /* box-shadow: 0 4px 8px 0 #bbb; */
     transition: 0.3s;
@@ -108,7 +109,7 @@ header {
     justify-content: space-between 0px;
     display: flex;
 }
-p{
+.card_text{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 350%;
     font-weight: 300;

@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="affirmations_app.css">
     <title>Affirmation Meditation App</title>
+    <script>
+        function affirmationText() {
+            document.getElementById("affirmationText").innerHTML = "Happy.";
+        }      
+    </script>
 </head>
 
 <body>
@@ -35,12 +40,13 @@
             <section class="cards">
                 <article class="card-one">
                     <p>"I AM"</p>
-                </article> <!-- /card-one -->
+                </article> 
             <!--<div class="animate"> -->
             <button class="card-two"> 
                 <article class="card">
-                    <p>HAPPY</p>
-            </article> <!-- /card-two -->
+                    <p id="words">HAPPY</p>
+                    <!--<button type="button" onclick="affirmationText()">Happy</button> -->
+            </article> 
             </button>  
         </div>
     </section>
@@ -62,6 +68,7 @@
     </div>
     
 <!-- End Footer -->
+
 
 <script src="main.js"></script>
 

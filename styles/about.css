@@ -100,5 +100,6 @@ header {
     font-variant: small-caps;
     color: black;
     text-align: center;
+    margin-top: -10px;
 }
 

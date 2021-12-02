@@ -5,9 +5,9 @@
 // let affirmationText = document.getElementById("affirmationText");
 // affirmationText.text("the next word")
 
-const affirmationWord = ["happy.", "grateful.", "thankful.", "thoughtful.", "mindful.", "abundant.", "creative.", 
+const affirmationWord = ["click me", "happy.", "loved","grateful.", "thankful.", "thoughtful.", "mindful.", "abundant.", "creative.", 
     "well rested.", "brave.", "enough.", "respectful.", "bold.", "vivrant.", "healthy.", "wealthy.",
-    "precise.", "gracious giver.", "calm.", "a builder.", "reasonable", "perceptive", "special.", "intuitive.", "unique.", "determined.", "strong.", "a survivor", "welcoming"];
+    "precise.", "gracious giver.", "calm.", "a builder.", "reasonable.", "perceptive.", "special.", "intuitive.", "unique.", "determined.", "strong.", "a survivor!", "welcoming.", "kind.", "awesome!", "phenonmenal.", "grounded.", "faithful.", "loyal."];
 const btn = document.getElementById("affirmationBtn");
 const text = document.getElementById("affirmationText");
 let index = 0;

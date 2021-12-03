@@ -36,7 +36,8 @@ header {
     position: fixed;
     top: 0; left: 0; right: 0;
     z-index: 1000;
-    background-color: #a988ad96;
+    /*background-color: #a988ad96; */
+    background-color: rgb(157, 121, 157);
 }
 .navbar {
     text-decoration: none;
@@ -44,7 +45,7 @@ header {
     font-size: 150%;
     font-weight: 300;
     font-variant: small-caps;
-    /*background-color: rgba(245, 245, 245, 0.4); */
+    /*background-color: rgba(245, 245, 245, 0.4); */ 
     overflow: hidden;
 }
 /* style the links inside the navbar */
@@ -101,7 +102,7 @@ h1 {
 .row-two {
     background-color:rgba(245, 245, 245, 0.6);
 	color: black;
-    padding: 4em;
+    padding: 3em;
     border-radius: 30px; /* rounded corners */
     width: 150%;
     max-width: 320px;
@@ -110,7 +111,7 @@ h1 {
     margin-top: 20px;
     display:inline-block;
     justify-content: space-between;
-    margin-left: 150px;
+    margin-left: 180px;
 }
 .card-text {
     margin: 5%;
@@ -139,6 +140,7 @@ span {
     padding-top: 18px;
     color: rgb(104, 99, 99);
 }
+
 /*h1{
     margin-right: 60%;
     margin-left: auto;

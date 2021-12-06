@@ -5,7 +5,7 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 /*body {
     background-image: url(./zoltan-tasi-vHnVtLK8rCc-unsplash\ \(1\).jpg);
